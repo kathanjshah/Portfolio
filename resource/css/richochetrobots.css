@@ -1,0 +1,13 @@
+
+body{
+    font-family: Georgia;
+    background-color: Black;
+    color: White;
+    background-image: url("images/repeat.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+}

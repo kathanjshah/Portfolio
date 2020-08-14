@@ -19,14 +19,16 @@ body{
     
 }
 
-.menu a{
+.menu button{
     text-decoration: none;
+    font-family: Georgia;
+    font-weight: bold;
     font-size: 30;
-    
+    background-color: transparent;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
-.menu a:hover{
-    background: white;
-    color: Black;
+.menu button:hover{
+    background: transparent;
+    color: lightskyblue;
 }
