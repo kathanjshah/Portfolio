@@ -2,10 +2,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="resource/css/portfolio.css" type="text/css">
-        <script scr="js/script.js"></script>
+        <script src="js/script.js"></script>
         
     </head>
     <body>
+        <div class="menu-bar">
+            <div class="buttons">
+                <br>
+                <button type="button" class="iconofme"><img src="resource/css/images/logo.png" alt="home" width="46px" height="46px"></button>
+                <button type="button">Home</button>
+                <span class="dropdown">
+                <button onclick="myFunction()" id="dropdown" class="dropbtn">Projects</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </span>
+                <button type="button">About</button>
+                <button type="button">Contact</button>
+                    
+            </div>
+        </div>
         <div class="header">
             <img class="frame" src="resource/css/images/img.jpg" width="320px" height="426px"/>
             <h1>Kathan Jay Shah</h1>
@@ -18,11 +36,11 @@
           <div class="projects">
             <h1>Projects</h1>   
                 <button type="button" onclick="location.href='file:///C:/Users/messe/Desktop/Portfolio/richorobots.html';">Richochet Robots</button>
-                <hr>
+                
                 <button type="button">Sudoku Solver</button>
-                <hr>
+                
                 <button type="button">Record System</button>
-                <hr>
+                
           </div>
           <div class="studies">
               <h1>Studies</h1>
