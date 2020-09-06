@@ -1,17 +1,37 @@
 <! doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="resource/css/richochetrobots.css" type="text/css">
+        <link rel="stylesheet" href="resource/css/portfolio.css" type="text/css">
+        <script src="js/script.js"></script>
     </head>
     <body>
-        <div class="header">
-            <img class="frame" src="resource/css/images/board.png"/>
+        <div class="menu-bar">
+            <div class="buttons">
+                <br>
+                <button type="button"  onclick="location.href='file:///C:/Users/messe/Desktop/Portfolio/Portfolio.html';" class="iconofme"><img src="resource/css/images/logo.png" alt="home" width="46px" height="46px"></button>
+                <button type="button" onclick="location.href='file:///C:/Users/messe/Desktop/Portfolio/Portfolio.html';">Home</button>
+                <span class="dropdown">
+                <button onclick="myFunction()" id="dropdown" class="dropbtn">Projects</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="file:///C:/Users/messe/Desktop/Portfolio/richorobots.html">Richochet Robots</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </span>
+                <button type="button">About</button>
+                <button type="button" onclick="location.href='file:///C:/Users/messe/Desktop/Portfolio/Contact.html';">Contact</button>
+                    
+            </div>
+        </div>
+        <div class="richoDis">
+            <img class="richoDis richopic" src="resource/css/images/board.png"/>
             <h1>Ricochet Robots</h1>
-            <p class="discription">
-                A simple implementation of Alex Randolph's board game Ricochet Robots including solver.<br>
-                This game is witten JAVA. Where I learned "back-tracking" and other alorithms. We also built a AI that can give the solution of the puzzle.<br>
-                Over all it was an intresting project,because I learned many different things like using GUI in depth, intreacting and managing the code using version control language "GIT" and github.<br>
-                This was a group project where I was the team leader and did the entire coding of game using my logics and ideas. <br>
+            <p class="richoDis">
+                A simple implementation of Alex Randolph's board game Ricochet Robots including solver.
+                This game is witten in JAVA. Where I learned some of the major algorithms in Computer science, one of such is "Find and hunt" algorithum. Over this I built an AI that can give the solution of the puzzle.
+                The most intresting part was to learn how to build the GUI and the "back-end" supporting it. All the updates were done periodically in 4 different Iteration. 
+                This Project is hosted on Github, which leads me to learn the version control language, git.
+                The whole design was created by me and all the code was led by me. 
             </p>
             
         </div> 
