@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-size: 20;
 }
 
 .header{
@@ -72,6 +73,9 @@ body{
 .menu-bar .show{
     display: block;
 }
+.Resume{
+    text-align: center;
+}
 .Resume .resumeButton{
     background-color: black;
     color: white;
@@ -84,10 +88,12 @@ body{
     box-shadow: 0px 0px 0px transparent;
     border-radius: 20px;
     text-shadow: 0px 0px 0px transparent;
+    text-align: center;
 }
 .richoDis{
     text-align: left;
     margin-top: 50px;
+    font-size: 20px;
 }
 
 .richoDis button{
@@ -116,9 +122,48 @@ body{
     border-radius: 20px;
     text-shadow: 0px 0px 0px transparent;
 }
+.sudoD{
+    font-size:20px;
+
+}
 .sudopic{
     text-align: left;
     margin-top: 100px;
+}
+.schoolCourses{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+   
+}
+.about-me{
+    font-size: 25px;
+}
+.schoolCourses div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.wrapper div:hover{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #659DBD;
+    border-radius: 10px;
+
+    font-size: 21px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #659DBD;
+    border-radius: 10px;
+    grid-gap: 10px;
+}
+.won{
+
 }
 
 
